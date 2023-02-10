@@ -1,0 +1,114 @@
+@media all and (max-width:575px) {
+    .header {
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+
+    .pic1 {
+        width: 100%;
+        height: 45px;
+       padding-left: 30px;
+
+    }
+
+    a {
+        color: black;
+    }
+
+    .bi-person {
+        font-size: 22px;
+        line-height: 55px;
+
+    }
+
+    .bi-person:hover {
+        color: #ff1541;
+    }
+
+    .bi-list {
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .bi-globe {
+        font-size: 20px;
+        line-height: 55px;
+    }
+
+    .bi-globe:hover {
+        color: #ff1541;
+    }
+
+    .bi-three-dots-vertical {
+        font-size: 24px;
+        color: #edeef2;
+
+    }
+
+    .header-action:hover {
+        color: red;
+    }
+
+    .navigation {
+        height: 60px;
+        line-height: 60px;
+        overflow: auto;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .ul1 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        height: 60px;
+        justify-content: flex-start;
+        flex-direction: row;
+        font-size: 12px;
+
+    }
+
+    .li1 {
+        margin-right: 25px;
+    }
+
+    .a1 {
+        height: 60px;
+        display: block;
+        text-decoration: none;
+        line-height: 60px;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    .filter-bar {
+        background-color: #f4f4f4;
+        height: 120px;
+    }
+    .bg1{
+        background-color: #f6f7f8;
+    }
+    .players{
+        width: 97%;
+        height: 95px;
+        padding: 0;
+        margin: 0 5px 10px;
+    }
+    .heading1 {
+        line-height: 95px;
+    }
+
+    .pic3{
+        height: 90px;
+        padding-right: 20px;
+        margin-top: 5px;
+
+    }
+
+}
