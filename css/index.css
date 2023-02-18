@@ -1,16 +1,28 @@
+@font-face {
+    font-family: 'Bokonique';
+    src: url('../fonts/Bokonique-Bold.woff2') format('woff2'),
+        url('../fonts/Bokonique-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 @media all and (max-width:575px) {
+
+    body {
+        font-family: 'Bebas Neue';
+    }
+
     .header {
         height: 55px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 10;
+        position: sticky;
+        top: 0;
     }
 
     .pic1 {
-        width: 100%;
         height: 45px;
-       padding-left: 30px;
 
     }
 
@@ -57,21 +69,11 @@
         height: 60px;
         line-height: 60px;
         overflow: auto;
-        padding: 0;
-        margin: 0;
-
     }
 
     .ul1 {
-        margin: 0;
-        padding: 0;
-        display: flex;
         list-style-type: none;
-        height: 60px;
-        justify-content: flex-start;
-        flex-direction: row;
-        font-size: 12px;
-
+        font-size: 16px;
     }
 
     .li1 {
@@ -91,24 +93,95 @@
         background-color: #f4f4f4;
         height: 120px;
     }
-    .bg1{
+
+    .date {
+       
+        height: 35px;
+        font-size: 16px;
+        border: solid 1px #e2e2e2 !important;
+        border-radius: 5px;
+
+    }
+
+    select {
+        cursor: pointer;
+    }
+
+    .group {
+        border: solid 1px #e2e2e2 ;
+        height: 35px;
+    }
+    .play{
+        width: 60%;
+        background-color: white;
+        border-right: solid 1px #e2e2e2 !important;
+        border-radius: 0px 5px 5px 0px;
+        
+    }
+
+    .stuff{
+        width: 40%;
+        background-color: #f4f4f4;
+        
+    }
+
+    .bg1 {
         background-color: #f6f7f8;
     }
-    .players{
+
+    .players {
         width: 97%;
         height: 95px;
-        padding: 0;
-        margin: 0 5px 10px;
+        margin: 5px;
     }
+
+    .player-card {
+        line-height: 2px;
+        padding-left: 10px;
+        padding-top: 20px;
+
+    }
+
     .heading1 {
         line-height: 95px;
     }
 
-    .pic3{
+    .pic3 {
         height: 90px;
-        padding-right: 20px;
+        padding: 0 10px;
         margin-top: 5px;
 
+    }
+
+    .number {
+        font-size: 32px;
+        font-weight: bolder;
+        color: #b7b7b7;
+        line-height: 15px;
+    }
+
+    .name {
+        font-size: 20px;
+        line-height: 10px;
+        color: #151e2d;
+        font-weight: 500;
+
+    }
+
+    .role {
+        color: #ff1541;
+        font-size: 10px;
+
+    }
+
+    .sponsor {
+        height: 30px;
+        padding: 0;
+        padding: 0 5px;
+    }
+
+    .footer {
+        height: 95px;
     }
 
 }
