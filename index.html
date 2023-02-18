@@ -10,41 +10,52 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid d-flex justify-content-between align-items-center bg-white header">
-        <i class="bi bi-list text-black"></i>
-        <div class="">
-            <img class="w-100  ps-3 pic1" src="images/1.png" alt="">
+
+    <!-- part1 -->
+
+    <div class="d-flex justify-content-between align-items-center bg-white px-2 position-sticky header">
+        <a href="#"><i class="bi bi-list text-black"></i></a>
+        <div>
+            <a href="#"><img class="w-100 ps-5 logo" src="images/1.png"></a>
         </div>
         <div>
             <a href="#"><i class="bi bi-person"></i></a><i class="bi bi-three-dots-vertical"></i><a href="#"><i
                     class="bi bi-globe"></i></a>
         </div>
     </div>
+
+    <!-- part2 -->
+
     <div>
-        <img class="w-100 pic2" src="images/2.jpg" alt="">
+        <img class="w-100 pic2" src="images/2.jpg">
     </div>
+
+    <!-- part3 -->
+
     <div class="w-100 p-0 m-0 navigation">
-        <ul class="m-0 p-0 d-flex justify-content-start flex-row h-100 ul1">
-            <li class="li1"><a class="a1 text-secondary">FIRST TEAM</a></li>
-            <li class="li1"><a class="a1" href="#">NEWS</a></li>
-            <li class="li1"><a class="a1" href="#">QATAR 2022</a></li>
-            <li class="li1"><a class="a1" href="#">TRANSFERS 22/23</a></li>
-            <li class="li1"><a class="a1" href="#">PLAYERS</a></li>
-            <li class="li1"><a class="a1" href="#">FIXTURES AND RESULTS</a></li>
-            <li class="li1"><a class="a1" href="#">LEAGUE TABLE</a></li>
-            <li class="li1"><a class="a1" href="#">HONOURS</a></li>
-
-
+        <ul class="m-0 p-0 d-flex justify-content-start flex-row h-100 ul3">
+            <li class="li3"><a class="a3 text-secondary">FIRST TEAM</a></li>
+            <li class="li3"><a class="a3" href="#">NEWS</a></li>
+            <li class="li3"><a class="a3" href="#">QATAR 2022</a></li>
+            <li class="li3"><a class="a3" href="#">TRANSFERS 22/23</a></li>
+            <li class="li3"><a class="a3" href="#">PLAYERS</a></li>
+            <li class="li3"><a class="a3" href="#">FIXTURES AND RESULTS</a></li>
+            <li class="li3"><a class="a3" href="#">LEAGUE TABLE</a></li>
+            <li class="li3"><a class="a3" href="#">HONOURS</a></li>
         </ul>
     </div>
-    <div class="w-100 filter-bar d-flex justify-content-between align-items-center">
-        <div class="group d-flex justify-content-start rounded-2 w-25 ms-5">
-            <button class="play   h-100 border-0">PLAYERS</button> <button class="stuff h-100 border-0">STUFF</button>
+
+    <!-- part4 -->
+
+    <div class="w-100 d-flex justify-content-between align-items-center filter-bar">
+        <div class="d-flex justify-content-start rounded-2 w-25 ms-5 group">
+            <button class="h-100 border-0 players">PLAYERS</button>
+            <button class="h-100 border-0 stuff">STUFF</button>
         </div>
 
         <div class="date me-5">
@@ -61,41 +72,57 @@
             </select>
         </div>
     </div>
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-12 players algin-self-center"><h2 class="heading1">Goalkeepers</h2></div>
-            <div class="col-12 d-flex justify-content-between players bg1">
-                <div class="w-100 player-card">
-                    <p class="number">16</p>
-                    <p class="name">Sergio Rico</p>
-                    <p class="role">Goalkeeper</p>
-                </div>
-                <img class="pic3" src="images/2.png">
+
+    <!-- part5 -->
+
+    <div class="mx-3 d-flex align-items-center goalkeepers">
+        <h2>GOALKEEPERS</h2>
+    </div>
+
+    <!-- part6 -->
+
+    <div class="container part6">
+        <div class="d-flex row">
+            <div class="mb-2 d-flex col-12 player-card">
+                <a href="#">
+                    <picture class="w-25">
+                        <source media="(max-width:575px)" srcset="images/2.png">
+                        <img class="pic61" src="images/22.png">
+                    </picture>
+                    <div></div>
+                </a>
             </div>
-            <div class="col-12 d-flex justify-content-between players bg1">
-                <div class="w-100 player-card">
-                    <p class="number">90</p>
-                    <p class="name">Alexandre Letellier</p>
-                    <p class="role">Goalkeeper</p>
-                </div>
-                <img class="pic3" src="images/4.png">
+
+
+            <div class="mb-2 col-12 player-card">
+                <a href="#">
+                    <picture class="w-25">
+                        <source media="(max-width:575px)" srcset="images/2.png">
+                        <img class="pic61" src="images/22.png">
+                    </picture>
+                    <div></div>
+                </a>
             </div>
-            <div class="col-12 d-flex justify-content-between players bg1">
-                <div class="w-100 player-card">
-                    <p class="number">99</p>
-                    <p class="name">Gianluigi Donnarumma</p>
-                    <p class="role">Goalkeeper</p>
-                </div>
-                <img class="pic3" src="images/3.png">
+
+            <div class="mb-2 col-12 player-card">
+                <a href="#">
+                    <picture class="w-25">
+                        <source media="(max-width:575px)" srcset="images/2.png">
+                        <img class="pic61" src="images/22.png">
+                    </picture>
+                    <div></div>
+                </a>
             </div>
-            
+
         </div>
     </div>
 
+
+
     <div class="w-100 d-flex justify-content-center align-items-center footer">
-       <a href="#" class=""><img class="w-100 sponsor" src="images/nike.png"></a> 
-       <a href="#" class=""><img class="w-100 sponsor" src="images/qatar.png"></a> 
-       <a href="#" class=""><img class="w-100 sponsor" src="images/goat.png"></a> 
+        <a href="#" class=""><img class="w-100 sponsor" src="images/nike.png"></a>
+        <a href="#" class=""><img class="w-100 sponsor" src="images/qatar.png"></a>
+        <a href="#" class=""><img class="w-100 sponsor" src="images/goat.png"></a>
     </div>
 
 </body>

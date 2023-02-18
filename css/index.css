@@ -7,8 +7,6 @@
     font-display: swap;
 }
 
-
-
 @media all and (max-width:575px) {
 
     body {
@@ -17,13 +15,11 @@
 
     .header {
         height: 55px;
-        position: sticky;
         top: 0;
     }
 
-    .pic1 {
+    .logo {
         height: 45px;
-
     }
 
     a {
@@ -71,16 +67,16 @@
         overflow: auto;
     }
 
-    .ul1 {
+    .ul3 {
         list-style-type: none;
         font-size: 16px;
     }
 
-    .li1 {
+    .li3 {
         margin-right: 25px;
     }
 
-    .a1 {
+    .a3 {
         height: 60px;
         display: block;
         text-decoration: none;
@@ -100,6 +96,7 @@
         font-size: 16px;
         border: solid 1px #e2e2e2 !important;
         border-radius: 5px;
+        width: 100px;
 
     }
 
@@ -111,7 +108,8 @@
         border: solid 1px #e2e2e2 ;
         height: 35px;
     }
-    .play{
+
+    .players {
         width: 60%;
         background-color: white;
         border-right: solid 1px #e2e2e2 !important;
@@ -125,63 +123,22 @@
         
     }
 
-    .bg1 {
-        background-color: #f6f7f8;
+    .goalkeepers{
+        height: 120px;
     }
 
-    .players {
-        width: 97%;
-        height: 95px;
-        margin: 5px;
+    .part6{
+        width: 94%;
+    }
+   
+    .pic61{
+        height: 100px;
     }
 
     .player-card {
-        line-height: 2px;
-        padding-left: 10px;
-        padding-top: 20px;
-
+        background-color: #f6f7f8;
+        
     }
 
-    .heading1 {
-        line-height: 95px;
-    }
-
-    .pic3 {
-        height: 90px;
-        padding: 0 10px;
-        margin-top: 5px;
-
-    }
-
-    .number {
-        font-size: 32px;
-        font-weight: bolder;
-        color: #b7b7b7;
-        line-height: 15px;
-    }
-
-    .name {
-        font-size: 20px;
-        line-height: 10px;
-        color: #151e2d;
-        font-weight: 500;
-
-    }
-
-    .role {
-        color: #ff1541;
-        font-size: 10px;
-
-    }
-
-    .sponsor {
-        height: 30px;
-        padding: 0;
-        padding: 0 5px;
-    }
-
-    .footer {
-        height: 95px;
-    }
 
 }
