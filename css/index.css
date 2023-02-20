@@ -7,11 +7,19 @@
     font-display: swap;
 }
 
-@media all and (max-width:575px) {
+body {
+    font-family: 'Bebas Neue';
+}
 
-    body {
-        font-family: 'Bebas Neue';
-    }
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media all and (max-width:575px) {
 
     .header {
         height: 55px;
@@ -91,7 +99,7 @@
     }
 
     .date {
-       
+
         height: 35px;
         font-size: 16px;
         border: solid 1px #e2e2e2 !important;
@@ -105,7 +113,7 @@
     }
 
     .group {
-        border: solid 1px #e2e2e2 ;
+        border: solid 1px #e2e2e2;
         height: 35px;
     }
 
@@ -114,31 +122,107 @@
         background-color: white;
         border-right: solid 1px #e2e2e2 !important;
         border-radius: 0px 5px 5px 0px;
-        
+
     }
 
-    .stuff{
+    .stuff {
         width: 40%;
         background-color: #f4f4f4;
-        
+
     }
 
-    .goalkeepers{
+    .position-section {
         height: 120px;
     }
 
-    .part6{
+
+    /* part6 */
+
+
+
+    .part6 {
         width: 94%;
     }
-   
-    .pic61{
+
+    .border-bottom {
+        color: #f4f4f4;
+    }
+
+    .pic61 {
         height: 100px;
     }
 
     .player-card {
         background-color: #f6f7f8;
-        
+
     }
+
+    .detail {
+        width: 80%;
+    }
+
+    .number {
+        font-size: 28px;
+        line-height: 30px;
+        color: #b7b7b7;
+    }
+
+    .name {
+        font-size: 20px;
+        line-height: 20px;
+        color: #17202f;
+    }
+
+    .role {
+        font-size: 10px;
+        line-height: 20px;
+        color: #ff1541;
+    }
+
+
+
+
+    .sponsorlist1 {
+        height: 90px;
+    }
+
+    .sponsor {
+        height: 25px;
+    }
+
+    .sponsorlist2 {
+        background-color: #151e2d;
+        height: 100px;
+        padding: 20px 0;
+    }
+
+    .brline {
+        background-color: #ff1541;
+        height: 2px;
+        width: 85%;
+    }
+
+    .social-link {
+        background-color: #151e2d;
+    }
+
+    /* part17 */
+
+
+    h6{
+        line-height: 30px;
+    }
+
+    .a17{
+        color: #a6adbb !important;
+        list-style-type: none;
+        font-family: sans-serif;
+        font-size: 12px;
+
+    }
+
+
+
 
 
 }
