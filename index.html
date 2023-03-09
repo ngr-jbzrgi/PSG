@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Players | First team - Paris Saint-Germain</title>
-    <link rel="stylesheet" href="css/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index-xs.css">
+    <link rel="stylesheet" href="css/index-lg.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,14 +24,9 @@
 
     <!-- part1 -->
 
-    <div class="d-flex justify-content-between align-items-center bg-white px-2 position-sticky header">
+    <div class="d-flex justify-content-between align-items-center bg-white px-2 position-sticky w-100 header">
         <a href="#"><i class="bi bi-list text-black"></i></a>
-        
-        <div class="rounded-circle logo-holder">
-            <a href="#"><img class="ps-5 logo" src="images/1.png"></a>
-        </div>
-
-        
+        <a class="rounded-circle logo-holder ms-5" href="#"><img class="rounded-circle logo" src="images/1.png"></a>
         <div>
             <a href="#"><i class="bi bi-person"></i></a><i class="bi bi-three-dots-vertical"></i><a href="#"><i
                     class="bi bi-globe"></i></a>
@@ -55,22 +56,22 @@
 
     <!-- part4 -->
 
-    <div class="w-100 d-flex justify-content-between align-items-center filter-bar">
-        <div class="d-flex justify-content-start rounded-2 w-25 ms-5 group">
-            <button class="h-100 border-0 players">PLAYERS</button>
-            <button class="h-100 border-0 stuff">STUFF</button>
+    <div class="w-100 d-flex justify-content-between align-items-center justify-content-md-center filter-bar">
+        <div class="d-flex justify-content-start rounded-2 ms-5 group">
+            <button class=" border-0 players">PLAYERS</button>
+            <button class=" border-0 stuff">STUFF</button>
         </div>
 
-        <div class="date me-5">
-            <select class="w-100 h-100 bg-white border-0 rounded-1" name="date" id="date">
-                <option>2014/15</option>
-                <option>2015/16</option>
-                <option>2016/17</option>
-                <option>2017/18</option>
-                <option>2018/19</option>
-                <option>2019/20</option>
-                <option>2020/21</option>
-                <option>2021/22</option>
+        <div class="me-5 rounded-2">
+            <select class="form-select" aria-label="Default select example">
+                <option value="1">2015/16</option>
+                <option value="2">2014/15</option>
+                <option value="3">2016/17</option>
+                <option value="4">2017/18</option>
+                <option value="5">2018/19</option>
+                <option value="6">2019/20</option>
+                <option value="7">2020/21</option>
+                <option value="8">2021/22</option>
                 <option selected>2022/23</option>
             </select>
         </div>
@@ -84,54 +85,59 @@
 
     <!-- part6 -->
 
-    <div class="container part6">
-        <div class="row">
-            <div class="mb-2 border-bottom  col-12 player-card">
+    <div class="container-fluid part6">
+        <div class="d-flex justify-content-sm-evenly row">
+            <div class="mb-2 mx-sm-1 border-bottom col-sm-6 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">16</span>
-                        <span class="name">Sergio Rico</span>
-                        <span class="role">GOALKEEPER</span>
+                    <div class="d-flex flex-column align-self-center detail ">
+                        <p class="number">16</p>
+                        <p class="name">Sergio Rico</p>
+                        <p class="role">GOALKEEspanER</p>
                     </div>
 
                     <div>
                         <picture>
                             <source media="(max-width:575px)" srcset="images/2.png">
-                            <img class="pic61" src="images/22.png">
+                            <img class="w-100 pic61" src="images/22.png">
                         </picture>
                     </div>
+
+                    <div class="border-top border-1 d-none d-sm-flex w-100 position-absolute profile-section">
+                        <p class=" w-100 h-100 d-block text-align-center text-white">Player profile</p>
+                    </div>
+
                 </a>
             </div>
 
-            <div class="mb-2 border-bottom  col-12 player-card">
+            <div class="mb-2 mx-sm-1 border-bottom  col-12 col-sm-6 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">90</span>
-                        <span class="name">Alexandre Letellier</span>
-                        <span class="role">GOALKEEPER</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">90</p>
+                        <p class="name">Alexandre Letellier</p>
+                        <p class="role">GOALKEEPER</p>
                     </div>
 
                     <div>
                         <picture>
                             <source media="(max-width:575px)" srcset="images/4.png">
-                            <img class="pic61" src="images/44.png">
+                            <img class="w-100 pic61" src="images/44.png">
                         </picture>
                     </div>
                 </a>
             </div>
 
-            <div class="mb-2 border-bottom  col-12 player-card">
+            <div class="mb-2 border-bottom  col-12 col-sm-6 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">99</span>
-                        <span class="name">Gianluigi Donnarumma</span>
-                        <span class="role">GOALKEEPER</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">99</p>
+                        <p class="name">Gianluigi Donnarumma</p>
+                        <p class="role">GOALKEEPER</p>
                     </div>
 
                     <div>
                         <picture>
                             <source media="(max-width:575px)" srcset="images/3.png">
-                            <img class="pic61" src="images/33.png">
+                            <img class="w-100 pic61" src="images/33.png">
                         </picture>
                     </div>
                 </a>
@@ -152,10 +158,10 @@
         <div class="row">
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">2</span>
-                        <span class="name">Achraf Hakimi</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">2</p>
+                        <p class="name">Achraf Hakimi</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -169,10 +175,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">3</span>
-                        <span class="name">Presnel Kimpembe</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">3</p>
+                        <p class="name">Presnel Kimpembe</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -186,10 +192,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">4</span>
-                        <span class="name">Sergio Ramos</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">4</p>
+                        <p class="name">Sergio Ramos</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -203,10 +209,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">5</span>
-                        <span class="name">Marquinhos </span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">5</p>
+                        <p class="name">Marquinhos </p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -220,10 +226,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">14</span>
-                        <span class="name">Juan Bernat</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">14</p>
+                        <p class="name">Juan Bernat</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -237,10 +243,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">25</span>
-                        <span class="name">Nuno Mendes</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">25</p>
+                        <p class="name">Nuno Mendes</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -254,10 +260,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">26</span>
-                        <span class="name">Nordi Mukiele</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">26</p>
+                        <p class="name">Nordi Mukiele</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -271,10 +277,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">29</span>
-                        <span class="name">Timothée Pembélé </span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">29</p>
+                        <p class="name">Timothée Pembélé </p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
@@ -302,10 +308,10 @@
         <div class="row">
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">6</span>
-                        <span class="name">Marco Verratti</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">6</p>
+                        <p class="name">Marco Verratti</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -319,10 +325,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">8</span>
-                        <span class="name">Fabian Ruiz</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">8</p>
+                        <p class="name">Fabian Ruiz</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -336,10 +342,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">15</span>
-                        <span class="name">Danilo Pereira</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">15</p>
+                        <p class="name">Danilo Pereira</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -353,10 +359,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">17</span>
-                        <span class="name">Vitinha </span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">17</p>
+                        <p class="name">Vitinha </p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -370,10 +376,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">18</span>
-                        <span class="name">Renato Sanches</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">18</p>
+                        <p class="name">Renato Sanches</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -387,10 +393,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">28</span>
-                        <span class="name">Carlos Soler</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">28</p>
+                        <p class="name">Carlos Soler</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -417,10 +423,10 @@
         <div class="row">
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">7</span>
-                        <span class="name">Kylian Mbappé</span>
-                        <span class="role">Forward</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">7</p>
+                        <p class="name">Kylian Mbappé</p>
+                        <p class="role">Forward</p>
                     </div>
 
                     <div>
@@ -434,10 +440,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">10</span>
-                        <span class="name">Neymar Jr</span>
-                        <span class="role">Forward</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">10</p>
+                        <p class="name">Neymar Jr</p>
+                        <p class="role">Forward</p>
                     </div>
 
                     <div>
@@ -451,10 +457,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">30</span>
-                        <span class="name">Lionel Messi</span>
-                        <span class="role">Forward</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">30</p>
+                        <p class="name">Lionel Messi</p>
+                        <p class="role">Forward</p>
                     </div>
 
                     <div>
@@ -468,10 +474,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">44</span>
-                        <span class="name">Hugo Ekitike</span>
-                        <span class="role">Forward</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">44</p>
+                        <p class="name">Hugo Ekitike</p>
+                        <p class="role">Forward</p>
                     </div>
 
                     <div>
@@ -498,15 +504,15 @@
         <div class="row">
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">31</span>
-                        <span class="name">El Chadaille Bitshiabu</span>
-                        <span class="role">Defender</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">31</p>
+                        <p class="name">El Chadaille Bitshiabu</p>
+                        <p class="role">Defender</p>
                     </div>
 
                     <div>
                         <picture>
-                            <source media="(max-width:575px)" srcset="images/e11.png">
+                            <source media="(max-width:575px)" srcset="images/E11.png">
                             <img class="pic61" src="images/E1.png">
                         </picture>
                     </div>
@@ -515,10 +521,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">33</span>
-                        <span class="name">Warren Zaire-Emery</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">33</p>
+                        <p class="name">Warren Zaire-Emery</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -532,10 +538,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">35</span>
-                        <span class="name">Ismaël Gharbi</span>
-                        <span class="role">Midfielder</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">35</p>
+                        <p class="name">Ismaël Gharbi</p>
+                        <p class="role">Midfielder</p>
                     </div>
 
                     <div>
@@ -549,10 +555,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">37</span>
-                        <span class="name">Ilyes Housni</span>
-                        <span class="role">Forward</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">37</p>
+                        <p class="name">Ilyes Housni</p>
+                        <p class="role">Forward</p>
                     </div>
 
                     <div>
@@ -566,10 +572,10 @@
 
             <div class="mb-2 border-bottom  col-12 player-card">
                 <a class="d-flex" href="#">
-                    <div class="d-flex flex-column detail align-self-center">
-                        <span class="number">70</span>
-                        <span class="name">Lucas Lavallee</span>
-                        <span class="role">Goalkeeper</span>
+                    <div class="d-flex flex-column  align-self-center detail">
+                        <p class="number">70</p>
+                        <p class="name">Lucas Lavallee</p>
+                        <p class="role">Goalkeeper</p>
                     </div>
 
                     <div>
@@ -666,13 +672,15 @@
             <div class="col-6">
                 <h6 class="text-white">JOIN US</h6>
                 <ul class="d-flex flex p-0">
-                    <li class="px-1 li18"><a class="a18" href="#"><i title="Facebook2" class="bi bi-facebook"></i></a></li>
+                    <li class="px-1 li18"><a class="a18" href="#"><i title="Facebook2" class="bi bi-facebook"></i></a>
+                    </li>
                     <li class="px-1 li18"><a class="a18" href="#"><i class="bi bi-instagram"></i></a></li>
                     <li class="px-1 li18"><a class="a18" href="#"><i class="bi bi-twitter"></i></a></li>
                     <li class="px-1 li18"><a class="a18" href="#"><i class="bi bi-youtube"></i></a></li>
                     <li class="px-1 li18"><a class="a18" href="#"><i class="bi bi-snapchat"></i></a></li>
                     <li class="px-1 li18"><a class="a18" href="#"><i class="bi bi-tiktok"></i></a></li>
-                    <li class="px-1 li18"><a class="a18" href="#"><img class="pic18" src="images/onefootball.png"></a></li>
+                    <li class="px-1 li18"><a class="a18" href="#"><img class="pic18" src="images/onefootball.png"></a>
+                    </li>
                 </ul>
             </div>
         </div>
