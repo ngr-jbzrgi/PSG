@@ -15,23 +15,60 @@
         height: 450px;
         width: 48%;
         position: relative;
+        padding: 0 !important;
+
     }
+
+    .player-card:hover .profile-section {
+        background-color: #ff1541 !important;
+        z-index: 10;
+        margin-bottom: 1px;
+
+
+
+    }
+
+    .player-card :hover .player-card-detail {
+
+        background-color: rgba(255, 255, 255, 0.90);
+        z-index: 10;
+        left: 0px;
+
+    }
+
+    .player-card :hover .number {
+        color: #a6adbb;
+        z-index: 11;
+
+    }
+
+    .player-card :hover .name {
+        color: #151e2d;
+        z-index: 11;
+
+    }
+
+
+
 
     .detail {
         position: absolute;
-        width: 80%;
-        height: 85%;
-        padding-bottom: 60px;
-        padding-left: 20px;
-   
+        height: 70%;
+        align-content: space-between;
+        margin-bottom: 70px;
+        margin-left: 20px;
+
+
     }
 
     .number {
         font-size: 4rem;
-        line-height:0.7;
-        color:#3f4b5a;
+        line-height: 0.5;
+        color: #3f4b5a;
         margin-bottom: auto;
+        transition: color 0.1s, border 0.4s;
     }
+
 
     .name {
         font-size: 2.5rem;
@@ -49,24 +86,42 @@
 
     .pic61 {
         height: 450px;
+        overflow: hidden;
     }
 
     .profile-section {
-        width: 100%;
+        align-self: flex-end;
+        transition: background-color 0.4s, border 0.4s;
+    }
+
+    .profiletext {
         height: 15%;
-        margin-left: -11px;
-        bottom: 0;
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 25px 30px;
+        border-top: 1px solid #3f4b5a;
+
     }
 
-    .profile-section :hover{
-        background-color: #ff1541;
+    .player-card-detail {
+        height: 82%;
+        z-index: 10;
+        right: 600px;
+        transition: background-color 0.4s, border 0.4s;
+        font-family: sans-serif;
     }
 
+    .player-scores {
+        font-size: 5rem;
+        color: #ff1541;
+        line-height: 1;
 
 
+    }
 
+    .topic {
+        font-size: 0.9rem;
 
-
-
+    }
 
 }
