@@ -9,15 +9,28 @@
 
 
     }
+    .part6-row {
+        margin: 4px !important;
+    }
 
     .player-card {
         background-color: #141d2c;
         height: 450px;
-        width: 48%;
+        width: 48.3%;
         position: relative;
         padding: 0 !important;
+        margin-bottom: 18px !important;
+        overflow: hidden;
+      
+        background-image: linear-gradient(rgba(19,25,40,0) 0%, #131928 100%);
 
     }
+
+    .player-card:hover {
+        filter: brightness(100%);
+
+    }
+
 
     .player-card:hover .profile-section {
         background-color: #ff1541 !important;
@@ -26,6 +39,10 @@
 
 
 
+    }
+
+    .player-card:hover .role {
+      display: none;
     }
 
     .player-card :hover .player-card-detail {
@@ -53,16 +70,16 @@
 
     .detail {
         position: absolute;
-        height: 70%;
+        height: 68%;
         align-content: space-between;
-        margin-bottom: 70px;
-        margin-left: 20px;
+        margin-bottom: 60px;
+        margin-left: 30px;
 
 
     }
 
     .number {
-        font-size: 4rem;
+        font-size: 3.7rem;
         line-height: 0.5;
         color: #3f4b5a;
         margin-bottom: auto;
@@ -75,18 +92,21 @@
         line-height: 1;
         color: white;
         order: 1;
+        z-index: 10;
+  
     }
 
     .role {
         font-size: 1rem;
-        line-height: 1.5;
+        line-height: 2;
         color: #ff1541;
         order: 0;
+        z-index: 10;
     }
 
     .pic61 {
         height: 450px;
-        overflow: hidden;
+        opacity: 0.7;
     }
 
     .profile-section {
@@ -97,30 +117,39 @@
     .profiletext {
         height: 15%;
         text-align: left;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         padding: 25px 30px;
         border-top: 1px solid #3f4b5a;
 
     }
 
     .player-card-detail {
-        height: 82%;
+        height: 83%;
         z-index: 10;
-        right: 600px;
-        transition: background-color 0.4s, border 0.4s;
-        font-family: sans-serif;
+        right: 800px;
+        transition: all 0.4s border 0s;
+        
+        line-height: 0.5;
+        padding: 0 !important;
+        text-align: left;
+
     }
 
     .player-scores {
-        font-size: 5rem;
+        font-size: 4rem;
         color: #ff1541;
         line-height: 1;
+        margin-bottom: 5px !important;
+        font-weight: 600;
 
 
     }
 
     .topic {
         font-size: 0.9rem;
+        line-height: 0.6;
+        margin-left:7px ;
+        font-family: sans-serif;
 
     }
 
