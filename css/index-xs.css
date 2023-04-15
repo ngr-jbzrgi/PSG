@@ -12,29 +12,7 @@
     }
 
 
-    .navigation {
-        height: 60px;
-        line-height: 60px;
-        overflow: auto;
-    }
-
-    .ul3 {
-        list-style-type: none;
-        font-size: 16px;
-    }
-
-    .li3 {
-        margin-right: 25px;
-    }
-
-    .a3 {
-        height: 60px;
-        display: block;
-        text-decoration: none;
-        line-height: 60px;
-        padding: 0 10px;
-        white-space: nowrap;
-    }
+   
 
 
     .filter-bar {

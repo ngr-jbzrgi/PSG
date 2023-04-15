@@ -16,6 +16,17 @@ body {
     z-index: 100 !important;
 }
 
+
+.navigation a {
+    color: #151e2d;
+}
+
+.navigation {
+    overflow:scroll !important;
+    white-space: nowrap !important;
+    max-width: 800px;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -69,30 +80,6 @@ ul {
 }
 
 
-.navigation {
-    height: 60px;
-    line-height: 60px;
-    overflow: auto;
-}
-
-.ul3 {
-    list-style-type: none;
-    font-size: 16px;
-}
-
-.li3 {
-    margin-right: 25px;
-}
-
-.a3 {
-    height: 60px;
-    display: block;
-    text-decoration: none;
-    line-height: 60px;
-    padding: 0 10px;
-    white-space: nowrap;
-}
-
 
 .filter-bar {
     background-color: #f4f4f4;
@@ -124,7 +111,7 @@ ul {
 .position-section {
     height: 120px;
 }
- 
+
 p {
     margin-bottom: 0;
 }
@@ -195,4 +182,10 @@ h6 {
 
 .pic18:hover {
     filter: brightness(100%);
+}
+
+ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
