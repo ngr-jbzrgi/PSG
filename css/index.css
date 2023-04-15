@@ -19,12 +19,15 @@ body {
 
 .navigation a {
     color: #151e2d;
+    display: block;
+    padding: 0 10px;
 }
 
 .navigation {
-    overflow:scroll !important;
-    white-space: nowrap !important;
-    max-width: 800px;
+    overflow: scroll !important;
+    /* white-space: nowrap !important; */
+    /* max-width: 800px; */
+    display: flex;
 }
 
 a {
