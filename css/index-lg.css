@@ -1,161 +1,23 @@
-@media all and (min-width:576px) and (max-width:991px) {
-    .logo {
-        height: 45px;
-        width: 45px;
-    }
-
-    .logo-holder {
-        box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
-
-
-    }
-    .part6-row {
-        margin: 4px !important;
-    }
-
-    .player-card {
-        background-color: #141d2c;
-        height: 450px;
-        width: 48.3%;
-        position: relative;
-        padding: 0 !important;
-        margin-bottom: 18px !important;
-        overflow: hidden;
-      
-        background-image: linear-gradient(rgba(19,25,40,0) 0%, #131928 100%);
-
-    }
-
-    .player-card:hover {
-        filter: brightness(100%);
-
-    }
-
-
-    .player-card:hover .profile-section {
-        background-color: #ff1541 !important;
-        z-index: 10;
-        margin-bottom: 1px;
-
-
-
-    }
-
-    .player-card:hover .role {
-      display: none;
-    }
-
-    .player-card :hover .player-card-detail {
-
-        background-color: rgba(255, 255, 255, 0.90);
-        z-index: 10;
-        left: 0px;
-
-    }
-
-    .player-card :hover .number {
-        color: #a6adbb;
-        z-index: 11;
-
-    }
-
-    .player-card :hover .name {
-        color: #151e2d;
-        z-index: 11;
-
-    }
-
-
-
-
-    .detail {
-        position: absolute;
-        height: 68%;
-        align-content: space-between;
-        margin-bottom: 60px;
-        margin-left: 30px;
-
-
-    }
-
-    .number {
-        font-size: 3.7rem;
-        line-height: 0.5;
-        color: #3f4b5a;
-        margin-bottom: auto;
-        transition: color 0.1s, border 0.4s;
-    }
-
-
-    .name {
-        font-size: 2.5rem;
-        line-height: 1;
-        color: white;
-        order: 1;
-        z-index: 10;
+.top-header {
+    background-color: #1a2434;
+    height: 35px;
   
-    }
+    
+}
 
-    .role {
-        font-size: 1rem;
-        line-height: 2;
-        color: #ff1541;
-        order: 0;
-        z-index: 10;
-    }
+.top-header li:first-of-type {
+    border-top: #ff1541 3px solid;
+    background-color: #49505c;
 
-    .pic61 {
-        height: 450px;
-        opacity: 0.7;
-    }
+}
 
-    .profile-section {
-        align-self: flex-end;
-        transition: background-color 0.4s, border 0.4s;
-    }
+.top-header li{
+    padding: 0px 10px;
+    line-height: 19px;
 
-    .profiletext {
-        height: 15%;
-        text-align: left;
-        font-size: 1.1rem;
-        padding: 25px 30px;
-        border-top: 1px solid #3f4b5a;
-
-    }
-
-    .player-card-detail {
-        height: 83%;
-        z-index: 10;
-        right: 800px;
-        transition: all 0.4s border 0s;
-        
-        line-height: 0.5;
-        padding: 0 !important;
-        text-align: left;
-
-    }
-
-    .player-scores {
-        font-size: 4rem;
-        color: #ff1541;
-        line-height: 1;
-        margin-bottom: 5px !important;
-        font-weight: 600;
+}
 
 
-    }
-
-    .topic {
-        font-size: 0.9rem;
-        line-height: 0.6;
-        margin-left:7px ;
-        font-family: sans-serif;
-
-    }
-
-    .lastlogo {
-        width: 85px;
-        height: 85px;
-    }
-
+.top-header li:hover {
+    background-color: #49505c ;
 }

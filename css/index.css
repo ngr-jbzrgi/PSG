@@ -13,9 +13,24 @@ body {
 
 .header {
     top: 0px;
-    z-index: 100 !important;
+    z-index: 10 !important;
 }
 
+.first-menu {
+    height: 12vw;
+}
+
+.first-menu a {
+    white-space: nowrap;
+}
+
+.first-menu a:first-of-type {
+    color: #b7b7b7;
+}
+
+.first-menu a:nth-of-type(4) {
+    color: #ff1541;
+}
 
 .navigation a {
     color: #151e2d;

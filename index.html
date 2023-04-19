@@ -11,9 +11,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/index-xs.css">
-    <link rel="stylesheet" href="css/index-lg.css">
+    <link rel="stylesheet" href="css/index-xs.css" media="all and (max-width:575px)">
+    <link rel="stylesheet" href="css/index-sm.css" media="all and (min-width:576px) and (max-width:991px)">
+    <link rel="stylesheet" href="css/index-lg.css" media="all and (min-width:992px)">
     <link rel="stylesheet" href="css/index.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,57 +26,110 @@
 
 <body>
 
-    <!-- part1 -->
-
-    <div class="d-flex justify-content-between align-items-center bg-white px-2 position-sticky header">
-        <a href="#"><i class="bi bi-list text-black"></i></a>
-        <a class="rounded-circle logo-holder ms-5" href="#"><img class="rounded-circle logo" src="images/1.png"></a>
-        <div>
-            <a href="#"><i class="bi bi-person"></i></a><i class="bi bi-three-dots-vertical"></i><a href="#"><i
-                    class="bi bi-globe"></i></a>
+    <!-- part0-->
+    <div class="container-fluid d-none d-lg-flex top-header  p-0 px-3 ">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">PSG.FR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">TICKETS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white ">MY PARIS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">STADIUM TOUR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">BUSINESS</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
+    <!-- part1 -->
+
+    <ul class="container-fluid nav justify-content-between position-sticky bg-white header">
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-list text-black"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-brand logo-holder rounded-circle" href="#"><img class="rounded-circle logo"
+                    src="images/1.png"></a>
+        </li>
+        <li class="nav-item ">
+            <a href="#"><i class="bi bi-person"></i></a><i class="bi bi-three-dots-vertical"></i><a href="#"><i
+                    class="bi bi-globe"></i></a>
+        </li>
+    </ul>
+
     <!-- part2 -->
 
-    <div>
-        <img class="w-100 pic2" src="images/2.jpg">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-12"> <img class="w-100 pic2" src="images/2.jpg"></div>
+        </div>
     </div>
 
     <!-- part3 -->
 
 
-    <div class="nav navigation">
-        <a class="nav-link disabled" href="#">FIRST TEAM</a>
-        <a class="nav-link" href="#">NEWS</a>
-        <a class="nav-link" href="#">QATAR 2022</a>
-        <a class="nav-link" href="#">TRANSFERS 22/23</a>
-        <a class="nav-link" href="#">PLAYERS</a>
-        <a class="nav-link" href="#">FIXTURES AND RESULTS</a>
-        <a class="nav-link" href="#">LEAGUE TABLE</a>
-        <a class="nav-link" href="#">HONOURS</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center overflow-auto first-menu">
+
+                <a class="px-2 mx-3">FIRST TEAM</a>
+
+                <a class="px-2 mx-3" href="#">NEWS</a>
+
+                <a class="px-2 mx-3" href="#">TRANSFERS 22/23</a>
+
+                <a class="px-2 mx-3" href="#">PLAYERS</a>
+
+                <a class="px-2 mx-3" href="#">FIXTURES AND RESULTS</a>
+
+                <a class="px-2 mx-3" href="#">LEAGUE TABLE</a>
+
+                <a class="px-2 mx-3" href="#">HONOURS</a>
+
+            </div>
+        </div>
     </div>
 
     <!-- part4 -->
 
-    <div class="w-100 d-flex justify-content-between align-items-center justify-content-md-center filter-bar">
-        <div class="d-flex justify-content-start rounded-2 ms-5 group">
-            <button class=" border-0 players">PLAYERS</button>
-            <button class=" border-0 stuff">STUFF</button>
-        </div>
+    <!-- <div class="d-flex justify-content-start rounded-2 ms-5 group">
+        <button class=" border-0 players">PLAYERS</button>
+        <button class=" border-0 stuff">STUFF</button>
+    </div> -->
+    <div class="container-fluid d-flex justify-content-between align-items-center justify-content-md-center filter-bar">
+        <div class="row w-100 m-0">
+            <div class="col-3 border d-flex align-items-center rounded-1">
+                <div class="w-75 h-100 rounded-1 border">Players</div>
+                <div class="w-25">Staff</div>
+            </div>
 
-        <div class="me-5 rounded-2">
-            <select class="form-select" aria-label="Default select example">
-                <option value="1">2015/16</option>
-                <option value="2">2014/15</option>
-                <option value="3">2016/17</option>
-                <option value="4">2017/18</option>
-                <option value="5">2018/19</option>
-                <option value="6">2019/20</option>
-                <option value="7">2020/21</option>
-                <option value="8">2021/22</option>
-                <option selected>2022/23</option>
-            </select>
+            <div class="col-3 me-5 rounded-2">
+                <select class="form-select" aria-label="Default select example">
+                    <option value="1">2015/16</option>
+                    <option value="2">2014/15</option>
+                    <option value="3">2016/17</option>
+                    <option value="4">2017/18</option>
+                    <option value="5">2018/19</option>
+                    <option value="6">2019/20</option>
+                    <option value="7">2020/21</option>
+                    <option value="8">2021/22</option>
+                    <option selected>2022/23</option>
+                </select>
+            </div>
+
         </div>
     </div>
 
@@ -108,7 +163,7 @@
                             profile</span>
                     </div>
 
-                    <div class="w-100  position-absolute d-none d-sm-flex player-card-detail">
+                    <div class="w-100 position-absolute d-none d-sm-flex player-card-detail">
                         <div class="container align-self-center">
                             <div class="row mx-auto mb-1 ">
                                 <div class="col-sm-6 p-0 pb-3 px-2 ">
