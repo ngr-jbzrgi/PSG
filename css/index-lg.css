@@ -1,23 +1,96 @@
+/* part 0 */
+
 .top-header {
     background-color: #1a2434;
+    z-index: 4;
     height: 35px;
-  
-    
+    top: 0;
 }
 
 .top-header li:first-of-type {
     border-top: #ff1541 3px solid;
     background-color: #49505c;
-
 }
 
-.top-header li{
+.top-header li {
+    border-top: #1a2434 3px solid;
+    transition: all 500ms ease 0s;
+}
+
+.top-header li {
     padding: 0px 10px;
-    line-height: 19px;
-
 }
-
 
 .top-header li:hover {
-    background-color: #49505c ;
+    background-color: #49505c;
 }
+
+/* part 1 */
+
+.logo-holder {
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+.logo {
+    height: 72px;
+    width: 72px;
+}
+
+.bottom-header {
+    height: 100px;
+    top: 34px;
+}
+
+.bottom-header li {
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+
+
+.first-team-header::after {
+
+    content: "";
+    height: 2px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #1a2434;
+    display: block;
+    transform: scaleX(1);
+}
+
+.menu-header::after {
+
+    content: "";
+    height: 2px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #1a2434;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: all 500ms ease 0s;
+}
+
+.menu-header:hover::after {
+    transform: scaleX(1);
+}
+
+.psgtv-header::after {
+
+    content: "";
+    height: 2px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #1a2434;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all 500ms ease 0s;
+}
+
+.psgtv-header:hover::after {
+    transform: scaleX(1);
+}
+
+/*part3*/
+

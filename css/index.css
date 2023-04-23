@@ -11,38 +11,103 @@ body {
     font-family: 'Bebas Neue';
 }
 
-.header {
-    top: 0px;
-    z-index: 10 !important;
+/* part 1 */
+
+.bottom-header {
+    z-index: 4 !important;
+    font-size: 1rem;
 }
+
+.logo-holder {
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+
+.bi-person {
+    font-size: 1.2rem;
+    line-height: 55px;
+    font-weight: bold;
+
+}
+
+.bi-person:hover,.bi-globe:hover,.bi-search:hover {
+    color: #ff1541;
+}
+
+.bi-globe {
+    font-size: 1.2rem;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.bi-three-dots-vertical {
+    font-size: 1.2rem;
+    color: #edeef2;
+    font-weight: bold;
+
+}
+.bi-search{
+    font-size: 1.2rem;
+}
+
+.logo-holder {
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+/* part 3 */
 
 .first-menu {
     height: 12vw;
+    overflow: auto !important;
+    /* white-space: nowrap !important; */
+    /* max-width: 800px; */
+    font-size: 0.9rem;
+
 }
 
 .first-menu a {
     white-space: nowrap;
 }
 
-.first-menu a:first-of-type {
-    color: #b7b7b7;
-}
 
-.first-menu a:nth-of-type(4) {
+.first-menu a:nth-of-type(3) {
     color: #ff1541;
 }
 
-.navigation a {
+.first-menu a:nth-of-type(3)::after{
+    content: "";
+    height: 2px;
+    margin-top: 5px;
+    width: 100%;
+    background-color:  #ff1541;
+    display: block;
+    transform: scaleX(1);
+}
+
+.first-menu a {
     color: #151e2d;
     display: block;
     padding: 0 10px;
+    text-decoration: none;
 }
 
-.navigation {
-    overflow: auto !important;
-    /* white-space: nowrap !important; */
-    /* max-width: 800px; */
-    display: flex;
+
+.first-menu a::after {
+
+    content: "";
+    height: 2px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #ff1541 ;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all 500ms ease 0s;
+}
+
+.first-menu a:hover::after {
+    transform: scaleX(1);
 }
 
 a {
@@ -54,57 +119,10 @@ ul {
     list-style-type: none;
 }
 
-.bi-person {
-    font-size: 22px;
-    line-height: 55px;
-    font-weight: bold;
-
-}
-
-.bi-person:hover {
-    color: #ff1541;
-}
-
-.bi-list {
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.bi-globe {
-    font-size: 20px;
-    line-height: 55px;
-    font-weight: bold;
-}
-
-.bi-globe:hover {
-    color: #ff1541;
-}
-
-.bi-three-dots-vertical {
-    font-size: 24px;
-    color: #edeef2;
-    font-weight: bold;
-
-}
-
-.logo {
-    height: 45px;
-    width: 45px;
-}
-
-.logo-holder {
-    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
-}
-
-
-
 .filter-bar {
     background-color: #f4f4f4;
     height: 120px;
 }
-
-
 
 .group {
     border: solid 1px #e2e2e2;

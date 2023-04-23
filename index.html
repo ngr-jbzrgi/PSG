@@ -27,26 +27,26 @@
 <body>
 
     <!-- part0-->
-    <div class="container-fluid d-none d-lg-flex top-header  p-0 px-3 ">
+    <div class="container-fluid d-none d-lg-flex position-fixed top-header">
         <div class="row">
             <div class="col-12">
                 <ul class="nav">
-                    <li class="nav-item">
+                    <li class="nav-item lh-1">
                         <a class="nav-link text-white" href="#">PSG.FR</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item lh-1">
                         <a class="nav-link text-white" href="#">TICKETS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item lh-1">
                         <a class="nav-link text-white" href="#">SHOP</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white ">MY PARIS</a>
+                    <li class="nav-item lh-1">
+                        <a class="nav-link text-white" href="#">MY PARIS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item lh-1">
                         <a class="nav-link text-white" href="#">STADIUM TOUR</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item lh-1">
                         <a class="nav-link text-white" href="#">BUSINESS</a>
                     </li>
                 </ul>
@@ -56,50 +56,55 @@
 
     <!-- part1 -->
 
-    <ul class="container-fluid nav justify-content-between position-sticky bg-white header">
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-list text-black"></i></a>
+    <ul class="nav container-fluid justify-content-between position-fixed bg-white  position-fixed bottom-header px-lg-4 px-2">
+        <li class="nav-item position-relative">
+            <a href="#" class="d-inline-block lh-lg"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list h-100" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg></a>
+            <a href="#" class="me-3 ms-2 d-none d-lg-inline-block menu-header">MENU</a>
+            <i class="bi bi-three-dots-vertical d-none d-lg-inline"></i>
+            <a href="#" class="mx-3 d-none d-lg-inline-block first-team-header">FIRST TEAM</a>
+            <a href="#" class="mx-3 d-none d-lg-inline-block psgtv-header">PSG TV</a>
         </li>
-        <li class="nav-item">
-            <a class="navbar-brand logo-holder rounded-circle" href="#"><img class="rounded-circle logo"
-                    src="images/1.png"></a>
-        </li>
-        <li class="nav-item ">
-            <a href="#"><i class="bi bi-person"></i></a><i class="bi bi-three-dots-vertical"></i><a href="#"><i
-                    class="bi bi-globe"></i></a>
+        <a href="#" class="rounded-circle logo-holder position-absolute"><img class="rounded-circle logo" src="images/1.png"></a></li>
+
+        <li class="nav-item position-relative">
+            <a href="#"><i class="bi bi-person"></i></a> <i class="bi bi-three-dots-vertical"></i>
+            <a href="#"><i class="bi bi-globe"></i></a>
+            <i class="bi bi-three-dots-vertical d-none d-lg-inline"></i><a href="#"><i class="bi bi-search d-none d-lg-inline"></i></a>
         </li>
     </ul>
 
     <!-- part2 -->
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid pt-5">
         <div class="row">
-            <div class="col-12"> <img class="w-100 pic2" src="images/2.jpg"></div>
+            <div class="col-12 p-0">
+                <picture>
+                    <source media="(max-width:991px)" srcset="images/2.jpg">
+                    <img class="w-100 pic2" src="images/22.jpg">
+                </picture>
+            </div>
         </div>
     </div>
 
     <!-- part3 -->
 
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 d-flex align-items-center overflow-auto first-menu">
-
-                <a class="px-2 mx-3">FIRST TEAM</a>
-
-                <a class="px-2 mx-3" href="#">NEWS</a>
-
-                <a class="px-2 mx-3" href="#">TRANSFERS 22/23</a>
-
-                <a class="px-2 mx-3" href="#">PLAYERS</a>
-
-                <a class="px-2 mx-3" href="#">FIXTURES AND RESULTS</a>
-
-                <a class="px-2 mx-3" href="#">LEAGUE TABLE</a>
-
-                <a class="px-2 mx-3" href="#">HONOURS</a>
-
+    <div class="container-fluid d-flex first-menu ">
+        <div class="row align-items-center">
+            <div class=" col-2 p-0">
+                <p class="px-3 text-secondary">FIRST TEAM</p>
             </div>
+
+            <div class="d-flex col-10 col-lg-10 p-0">
+                <a class="px-3" href="#">NEWS</a>
+                <a class="px-3" href="#">TRANSFERS 22/23</a>
+                <a class="px-3" href="#">PLAYERS</a>
+                <a class="px-3" href="#">FIXTURES AND RESULTS</a>
+                <a class="px-3" href="#">LEAGUE TABLE</a>
+                <a class="px-3" href="#">HONOURS</a>
+            </div>
+
         </div>
     </div>
 
