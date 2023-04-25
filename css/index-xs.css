@@ -6,25 +6,84 @@
     width: 45px;
 }
 
+/* part 3 */
 
+.first-menu {
+    height: 68px;
+    overflow: auto !important;
+    /* white-space: nowrap !important; */
+    /* max-width: 800px; */
+
+}
+
+.first-menu a {
+    white-space: nowrap;
+    display: block;
+    font-size: 1rem;
+    letter-spacing:1px ;
+    line-height: 1.8;
+    color: #151e2d;
+    text-decoration: none;
+    padding: 20px 20px 0px 20px;
+    transition: all 300ms ease 0s;
+}
+
+.first-menu a:hover{
+    color: #ff1541;
+}
+
+.first-menu p{
+    font-size: 1rem;
+    letter-spacing:1px ;
+    line-height: 1.8;
+    color: #b7b7b7;
+    padding: 20px 20px 0px 20px;
+
+}
+
+.first-menu a:nth-of-type(3) {
+    color: #ff1541;
+}
+
+.first-menu a:nth-of-type(3)::after{
+    content: "";
+    height: 2px;
+    margin-top: 16.5px;
+    width: 100%;
+    background-color:  #ff1541;
+    display: block;
+    transform: scaleX(1);
+}
+
+
+
+.first-menu a::after {
+
+    content: "";
+    height: 2px;
+    margin-top: 17px;
+    width: 100%;
+    background-color: #ff1541 ;
+    display: block;
+    transform: scaleX(0);
+    transition: all 200ms ease 0s;
+   
+}
+
+.first-menu a:hover::after {
+    transform: scaleX(1);
+}
+
+/* part4 */
 .filter-bar {
     background-color: #f4f4f4;
     height: 120px;
 }
 
-.date {
-
-    height: 35px;
-    font-size: 16px;
-    border: solid 1px #e2e2e2 !important;
-    border-radius: 5px;
-    width: 100px;
-
-}
-
 .group {
     border: solid 1px #e2e2e2;
-    height: 35px;
+    height: 40px;
+    width: 30%;
 }
 
 .players {
@@ -40,6 +99,15 @@
     background-color: #f4f4f4;
 
 }
+
+.date {
+
+    height: 35px;
+    width: 20%;
+
+}
+
+/* part5 */
 
 .position-section {
     height: 120px;

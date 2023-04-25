@@ -55,60 +55,7 @@ body {
     box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
 }
 
-/* part 3 */
 
-.first-menu {
-    height: 12vw;
-    overflow: auto !important;
-    /* white-space: nowrap !important; */
-    /* max-width: 800px; */
-    font-size: 0.9rem;
-
-}
-
-.first-menu a {
-    white-space: nowrap;
-}
-
-
-.first-menu a:nth-of-type(3) {
-    color: #ff1541;
-}
-
-.first-menu a:nth-of-type(3)::after{
-    content: "";
-    height: 2px;
-    margin-top: 5px;
-    width: 100%;
-    background-color:  #ff1541;
-    display: block;
-    transform: scaleX(1);
-}
-
-.first-menu a {
-    color: #151e2d;
-    display: block;
-    padding: 0 10px;
-    text-decoration: none;
-}
-
-
-.first-menu a::after {
-
-    content: "";
-    height: 2px;
-    margin-top: 5px;
-    width: 100%;
-    background-color: #ff1541 ;
-    display: block;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: all 500ms ease 0s;
-}
-
-.first-menu a:hover::after {
-    transform: scaleX(1);
-}
 
 a {
     text-decoration: none;
@@ -119,30 +66,10 @@ ul {
     list-style-type: none;
 }
 
-.filter-bar {
-    background-color: #f4f4f4;
-    height: 120px;
-}
+/* Part4*/
 
-.group {
-    border: solid 1px #e2e2e2;
-    height: 40px;
-    width: 25%;
-}
 
-.players {
-    width: 60%;
-    background-color: white;
-    border-right: solid 1px #e2e2e2 !important;
-    border-radius: 0px 5px 5px 0px;
 
-}
-
-.stuff {
-    width: 40%;
-    background-color: #f4f4f4;
-
-}
 
 .position-section {
     height: 120px;
