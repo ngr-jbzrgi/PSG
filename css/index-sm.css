@@ -1,6 +1,6 @@
 /* part 1 */
 
-.bottom-header{
+.bottom-header {
     height: 55px;
 }
 
@@ -24,7 +24,7 @@
     white-space: nowrap;
     display: block;
     font-size: 1rem;
-    letter-spacing:1px ;
+    letter-spacing: 1px;
     line-height: 1.8;
     color: #151e2d;
     text-decoration: none;
@@ -36,25 +36,26 @@
 }
 
 
-.first-menu p{
+.first-menu p {
     font-size: 1rem;
-    letter-spacing:1px ;
+    letter-spacing: 1px;
     line-height: 1.8;
     color: #b7b7b7;
     padding: 28px 20px 26px 20px;
 
 }
+
 .first-menu a:nth-of-type(3) {
     color: #ff1541;
 }
 
-.first-menu a:nth-of-type(3)::after{
+.first-menu a:nth-of-type(3)::after {
     content: "";
     height: 2px;
     margin-top: 24px;
     margin-left: -18px;
     width: 170%;
-    background-color:  #ff1541;
+    background-color: #ff1541;
     display: block;
     transform: scaleX(1);
 
@@ -67,7 +68,7 @@
     content: "";
     height: 2px;
     margin-top: 24px;
-    background-color: #ff1541 ;
+    background-color: #ff1541;
     display: block;
     transform: scaleX(0);
     transform-origin: center;
@@ -79,6 +80,37 @@
 }
 
 /* part4 */
+.filter-bar {
+    background-color: #f4f4f4;
+    height: 120px;
+}
+
+.group {
+    border: solid 1px #e2e2e2;
+    height: 50px;
+    width: 180px;
+}
+
+.players {
+    width: 60%;
+    background-color: white;
+    border-right: solid 1px #e2e2e2 !important;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.stuff {
+    width: 40%;
+    background-color: #f4f4f4;
+
+}
+
+.date {
+
+    height: 100px;
+    width: 20%;
+
+}
 
 .part6-row {
     margin: 4px !important;
