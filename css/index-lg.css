@@ -1,3 +1,9 @@
+* {
+    scrollbar-width: 25px;
+    scrollbar-color: #71747b #1a2434;
+}
+
+
 /* part 0 */
 
 .top-header {
@@ -161,4 +167,176 @@
 
 .first-menu a:hover::after {
     transform: scaleX(1);
+}
+
+/* part4 */
+.filter-bar {
+    background-color: #f4f4f4;
+    height: 120px;
+}
+
+.group {
+    border: solid 1px #e2e2e2;
+    height: 50px;
+   
+}
+
+.players {
+    width: 60%;
+    background-color: white;
+    border-right: solid 1px #e2e2e2 !important;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.stuff {
+    width: 40%;
+    background-color: #f4f4f4;
+
+}
+
+.date {
+    height: 48px;
+
+}
+
+/* part 6 */
+
+.player-card-2 {
+    background-color: #141d2c;
+    background-image: linear-gradient(rgba(19, 25, 40, 0) 0%, #131928 100%);
+}
+
+.player-card-3{
+    position: relative;
+}
+
+
+.detail {
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    align-content: space-between;
+    top: 0;
+    padding-top:20px;
+
+
+}
+
+.player-card:hover {
+    filter: brightness(100%);
+
+}
+
+
+.player-card:hover .profile-section {
+    background-color: #ff1541 !important;
+    z-index: 2;
+    margin-bottom: 1px;
+
+
+
+}
+
+.player-card:hover .role {
+    display: none;
+}
+
+.player-card :hover .player-card-detail {
+
+    background-color: rgba(255, 255, 255, 0.90);
+    z-index: 2;
+    left: 0px;
+
+}
+
+.player-card :hover .number {
+    color: #a6adbb;
+    z-index: 3;
+
+}
+
+.player-card :hover .name {
+    color: #151e2d;
+    z-index: 3;
+
+}
+
+.number {
+    font-size: 3.7rem;
+    line-height: 0.5;
+    color: #3f4b5a;
+    margin-bottom: auto;
+    transition: color 0.1s, border 0.4s;
+}
+
+
+.name {
+    font-size: 2.5rem;
+    line-height: 1;
+    color: white;
+    order: 1;
+    z-index: 2;
+
+}
+
+.role {
+    font-size: 1rem;
+    line-height: 2;
+    color: #ff1541;
+    order: 0;
+    z-index: 2;
+}
+
+.pic61 {
+    height: 450px;
+    opacity: 0.7;
+}
+
+.profile-section {
+    height: 20%;
+    transition: background-color 0.4s, border 0.4s;
+    border-top: 1px solid #3f4b5a;
+}
+
+.profiletext {
+    text-align: left;
+    font-size: 1.1rem;
+  
+
+}
+
+.player-card-detail {
+    height: 90%;
+    z-index: 2;
+    right: 800px;
+    transition: all 0.4s border 0s;
+
+    line-height: 0.5;
+    padding: 0 !important;
+    text-align: left;
+
+}
+
+.player-scores {
+    font-size: 4rem;
+    color: #ff1541;
+    line-height: 1;
+    margin-bottom: 5px !important;
+    font-weight: 600;
+
+
+}
+
+.topic {
+    font-size: 0.9rem;
+    line-height: 0.6;
+    margin-left: 7px;
+    font-family: sans-serif;
+
+}
+
+.lastlogo {
+    width: 85px;
+    height: 85px;
 }

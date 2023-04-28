@@ -11,6 +11,8 @@ body {
     font-family: 'Bebas Neue';
 }
 
+
+
 /* part 1 */
 
 .bottom-header {
@@ -66,14 +68,13 @@ ul {
     list-style-type: none;
 }
 
-/* Part4*/
 
-
-
+/* part5 */
 
 .position-section {
-    height: 120px;
+    font-size: calc(2vw + 8px);
 }
+
 
 p {
     margin-bottom: 0;

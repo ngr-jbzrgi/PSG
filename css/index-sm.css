@@ -107,25 +107,32 @@
 
 .date {
 
-    height: 100px;
-    width: 20%;
+    height: 50px;
+
 
 }
 
-.part6-row {
-    margin: 4px !important;
-}
+/* part6 */
 
-.player-card {
+
+.player-card-2 {
     background-color: #141d2c;
-    /* height: 450px; */
-    /* width: 48.3%; */
-    position: relative;
-    padding: 0 !important;
-    /* margin-bottom: 18px !important; */
-    overflow: hidden;
-
     background-image: linear-gradient(rgba(19, 25, 40, 0) 0%, #131928 100%);
+}
+
+.player-card-3{
+    position: relative;
+}
+
+
+.detail {
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    align-content: space-between;
+    top: 0;
+    padding-top:20px;
+
 
 }
 
@@ -168,19 +175,6 @@
 
 }
 
-
-
-
-.detail {
-    position: absolute;
-    height: 68%;
-    align-content: space-between;
-    margin-bottom: 60px;
-    margin-left: 30px;
-
-
-}
-
 .number {
     font-size: 3.7rem;
     line-height: 0.5;
@@ -213,17 +207,15 @@
 }
 
 .profile-section {
-    bottom: 0;
-    align-self: flex-end;
+    height: 20%;
     transition: background-color 0.4s, border 0.4s;
+    border-top: 1px solid #3f4b5a;
 }
 
 .profiletext {
-    height: 10%;
     text-align: left;
     font-size: 1.1rem;
-    padding: 10px 30px;
-    border-top: 1px solid #3f4b5a;
+  
 
 }
 
