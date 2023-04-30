@@ -201,6 +201,13 @@
 }
 
 /* part 6 */
+.part6 .row {
+    margin: 0 50px;
+}
+
+.position-title{
+    padding: 0 70px;
+}
 
 .player-card-2 {
     background-color: #141d2c;

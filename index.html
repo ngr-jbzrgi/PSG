@@ -59,11 +59,102 @@
     <ul
         class="nav container-fluid justify-content-between position-fixed bg-white  position-fixed bottom-header px-lg-4 px-2">
         <li class="nav-item position-relative">
-            <a href="#" class="d-inline-block lh-lg"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                    fill="currentColor" class="bi bi-list h-100" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg></a>
+            <a href="#" class="d-inline-block lh-lg">
+                <div class="dropdown d-inline">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-list h-100" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu part1-menu-dropdown">
+                        <li><a class="dropdown-item" href="#">
+                            <label  for="search"><i class="bi bi-search d-none d-lg-inline"></i></label>
+                            <input style="background-color: #f2f2f2;" id="search" name="search" type="text"  placeholder="search" class="border-0 px-3"></a>
+                        </li>
+                        <div class="dropdown-divider bg-white"></div>
+                        <li><a class="dropdown-item " href="#">
+                            <button type="button" class="btn m-1 buttons-menu">Tickets</button>
+                            <button type="button" class="btn m-1 buttons-menu">shop</button>
+                            <br>
+                            <button type="button" class="btn m-1  buttons-menu">MyParis</button>
+                            <button type="button" class="btn m-1  buttons-menu">Studiom Tour</button>
+                            <br>
+                            <button type="button" class="btn m-1  buttons-menu">BUSINESS</button>
+
+                        </a></li>
+                        <li><a class="dropdown-item" href="#">
+                            <div class="dropdown d-inline">
+                                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <div class="d-flex justify-content-between">
+                                    <p class="ps-3">First Team</p>
+                                    <i class="bi bi-plus pe-3"></i>
+                                  </div>   
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                        </a></li>
+                        <div class="dropdown-divider bg-white"></div>
+                        <li><a class="dropdown-item" href="#">
+                            <div class="dropdown d-inline">
+                                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <div class="d-flex justify-content-between">
+                                    <p class="ps-3">Women</p>
+                                    <i class="bi bi-plus pe-3"></i>
+                                  </div>   
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                        </a></li>
+                        <div class="dropdown-divider bg-white"></div>
+                        <li><a class="dropdown-item" href="#">
+                            <div class="dropdown d-inline">
+                                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <div class="d-flex justify-content-between">
+                                    <p class="ps-3">Handball</p>
+                                    <i class="bi bi-plus pe-3"></i>
+                                  </div>   
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </a>
+                        </li>
+                        <div class="dropdown-divider bg-white"></div>
+                        <li><a class="dropdown-item" href="#">
+                            <div class="dropdown d-inline">
+                                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <div class="d-flex justify-content-between">
+                                    <p class="ps-3">others</p>
+                                    <i class="bi bi-plus pe-3"></i>
+                                  </div>   
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </a></li>
+                            
+                      </ul>
+                    
+
+                    
+                </div>
+            </a>
             <a href="#" class="me-3 ms-2 d-none d-lg-inline-block menu-header">MENU</a>
             <i class="bi bi-three-dots-vertical d-none d-lg-inline"></i>
             <a href="#" class="mx-3 d-none d-lg-inline-block first-team-header">FIRST TEAM</a>
@@ -73,8 +164,55 @@
                 src="images/1.png"></a></li>
 
         <li class="nav-item position-relative">
-            <a href="#"><i class="bi bi-person"></i></a> <i class="bi bi-three-dots-vertical"></i>
-            <a href="#"><i class="bi bi-globe"></i></a>
+            <a href="#">
+
+                <div class="dropdown d-inline">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person"></i>
+                    </a>
+                    <div class="dropdown-menu person-dropdown">
+                        <form class="px-4 py-3 person-form">
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormEmail1" class="form-label text-white">Email
+                                    address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                    placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormPassword1" class="form-label text-white">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="d-flex justify-content-around">
+                                <button type="submit" class="btn">Sign in</button>
+                            </div>
+                        </form>
+                        <div class="dropdown-divider bg-white"></div>
+                        <a class="dropdown-item text-white" href="#">New around here? Sign up</a>
+                        <a class="dropdown-item text-white" href="#">Forgot password?</a>
+                    </div>
+                </div>
+            </a>
+            <i class="bi bi-three-dots-vertical"></i>
+            <a href="#">
+                <div class="dropdown d-inline">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-globe"></i>
+                    </a>
+
+                    <ul class="dropdown-menu globe-dropdown">
+                        <li><a class="dropdown-item globe-items pe-2 pt-3 pb-2" href="#">français</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">English</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">Español</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">português</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">عربی</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">中文</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">Bahasa Indonesia</a></li>
+                        <li><a class="dropdown-item globe-items pe-2 py-2" href="#">日本語</a></li>
+
+                    </ul>
+                </div>
+            </a>
             <i class="bi bi-three-dots-vertical d-none d-lg-inline"></i><a href="#"><i
                     class="bi bi-search d-none d-lg-inline"></i></a>
         </li>
@@ -97,10 +235,10 @@
 
     <div class="container-fluid d-flex  first-menu">
         <div class="row d-flex flex-column">
-            <div class="col-2 px-0 col-lg-2">
+            <div class="col-2 col-lg-3 ps-lg-4  px-0">
                 <p class="text-secondary">FIRST TEAM</p>
             </div>
-            <div class="d-flex col-10 col-lg-7">
+            <div class="d-flex col-10 col-lg-7 offset-lg-1">
                 <a class="" href="#">NEWS</a>
                 <a class="" href="#">TRANSFERS 22/23</a>
                 <a class="" href="#">PLAYERS</a>
@@ -115,13 +253,13 @@
 
     <div class="container-fluid px-0 filter-bar px-3">
         <div class="row d-flex justify-content-between justify-content-lg-center align-items-center h-100 ">
-            <div class="col-4 col-lg-2 ">
+            <div class="col-5 col-sm-4 col-lg-2 ">
                 <div class="d-flex justify-content-start rounded-3 group">
                     <button class=" border-0 rounded-3 players">PLAYERS</button>
                     <button class=" border-0 rounded-3 stuff">STUFF</button>
                 </div>
             </div>
-            <div class="col-3 col-lg-2 d-flex date ">
+            <div class="col-5 col-sm-3 col-lg-2 d-flex date ">
                 <select class="form-select text-center " aria-label="Default select example">
                     <option value="1">2015/16</option>
                     <option value="2">2014/15</option>
@@ -138,11 +276,10 @@
     </div>
 
     <!-- part5 -->
-    <div class="container-fluid my-4 my-sm-5 ">
+    <div class="container-fluid my-4 my-sm-5 position-title">
         <div class="row">
             <div class="col-12 d-flex position-section">
                 <p class=" m-0 px-1">Goalkeepers</p>
-
             </div>
         </div>
     </div>
@@ -265,7 +402,7 @@
 
     <!-- part7 -->
 
-    <div class="container-fluid my-4 my-sm-5 ">
+    <div class="container-fluid my-4 my-sm-5 position-title">
         <div class="row">
             <div class="col-12 d-flex position-section">
                 <p class=" m-0 px-1">Defenders</p>
@@ -511,7 +648,7 @@
 
     <!-- part9 -->
 
-    <div class="container-fluid my-4 my-sm-5 ">
+    <div class="container-fluid my-4 my-sm-5 position-title ">
         <div class="row">
             <div class="col-12 d-flex position-section">
                 <p class=" m-0 px-1">Midfielders</p>
@@ -693,7 +830,7 @@
                 </div>
             </div>
 
-            
+
 
 
         </div>
@@ -701,7 +838,7 @@
 
     <!-- part11 -->
 
-    <div class="container-fluid my-4 my-sm-5 ">
+    <div class="container-fluid my-4 my-sm-5 position-title ">
         <div class="row">
             <div class="col-12 d-flex position-section">
                 <p class=" m-0 px-1">Forwards</p>
@@ -713,7 +850,7 @@
 
     <!-- part12 -->
 
-    
+
     <div class="container-fluid part6">
         <div class="row">
             <div class="mb-2 mb-sm-4 col-12 col-sm-6 col-lg-4 player-card bg-sm-white">
@@ -774,7 +911,7 @@
                 </div>
             </div>
 
-            
+
             <div class="mb-2 mb-sm-4 col-12 col-sm-6 col-lg-4 player-card bg-sm-white">
                 <div class="col-12 player-card-2">
                     <a href="#">
@@ -833,7 +970,7 @@
     </div>
 
     <!-- part13 -->
-    <div class="container-fluid my-4 my-sm-5 ">
+    <div class="container-fluid my-4 my-sm-5 position-title">
         <div class="row">
             <div class="col-12 d-flex position-section">
                 <p class=" m-0 px-1">Elite Group</p>
@@ -889,7 +1026,7 @@
                 </div>
             </div>
 
-            
+
             <div class="mb-2 mb-sm-4 col-12 col-sm-6 col-lg-4 player-card bg-sm-white">
                 <div class="col-12 player-card-2">
                     <a href="#">

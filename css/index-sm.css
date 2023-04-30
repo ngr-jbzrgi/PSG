@@ -112,7 +112,16 @@
 
 }
 
+/* part5*/
+.position-title{
+    padding: 0 30px;
+}
+
 /* part6 */
+.part6 .row {
+    margin: 0 10px;
+}
+
 
 
 .player-card-2 {
