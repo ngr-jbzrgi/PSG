@@ -122,8 +122,6 @@
     margin: 0 10px;
 }
 
-
-
 .player-card-2 {
     background-color: #141d2c;
     background-image: linear-gradient(rgba(19, 25, 40, 0) 0%, #131928 100%);
@@ -154,10 +152,6 @@
 .player-card:hover .profile-section {
     background-color: #ff1541 !important;
     z-index: 2;
-    margin-bottom: 1px;
-
-
-
 }
 
 .player-card:hover .role {
@@ -219,6 +213,7 @@
     height: 20%;
     transition: background-color 0.4s, border 0.4s;
     border-top: 1px solid #3f4b5a;
+    z-index: 4;
 }
 
 .profiletext {
