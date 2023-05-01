@@ -249,13 +249,13 @@
     display: none;
 }
 
-.player-card :hover .player-card-detail {
+/* .player-card :hover .player-card-detail {
 
     background-color: rgba(255, 255, 255, 0.90);
     z-index: 2;
     left: 0px;
 
-}
+} */
 
 .player-card :hover .number {
     color: #a6adbb;
@@ -313,17 +313,16 @@
 
 }
 
-.player-card-detail {
+/* .player-card-detail {
     height: 90%;
     z-index: 2;
     right: 800px;
     transition: all 0.4s border 0s;
-
     line-height: 0.5;
     padding: 0 !important;
     text-align: left;
 
-}
+} */
 
 .player-scores {
     font-size: 4rem;
@@ -347,3 +346,4 @@
     width: 85px;
     height: 85px;
 }
+

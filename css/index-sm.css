@@ -143,28 +143,21 @@
 
 }
 
-.player-card:hover {
-    filter: brightness(100%);
-
-}
-
-
-.player-card:hover .profile-section {
+/* .player-card-3:hover .profile-section {
     background-color: #ff1541 !important;
     z-index: 2;
-}
+} */
+
 
 .player-card:hover .role {
     display: none;
 }
 
-.player-card :hover .player-card-detail {
-
-    background-color: rgba(255, 255, 255, 0.90);
+/* .player-card :hover .player-card-detail {
     z-index: 2;
     left: 0px;
 
-}
+} */
 
 .player-card :hover .number {
     color: #a6adbb;
