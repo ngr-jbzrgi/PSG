@@ -143,29 +143,17 @@
 
 }
 
-/* .player-card-3:hover .profile-section {
-    background-color: #ff1541 !important;
-    z-index: 2;
-} */
-
-
 .player-card:hover .role {
     display: none;
 }
 
-/* .player-card :hover .player-card-detail {
-    z-index: 2;
-    left: 0px;
-
-} */
-
-.player-card :hover .number {
+.player-card-3:hover .number {
     color: #a6adbb;
     z-index: 3;
 
 }
 
-.player-card :hover .name {
+.player-card-3:hover .name {
     color: #151e2d;
     z-index: 3;
 
@@ -204,7 +192,7 @@
 
 .profile-section {
     height: 20%;
-    transition: background-color 0.4s, border 0.4s;
+    transition: background-color 0.9s border 0.4s;
     border-top: 1px solid #3f4b5a;
     z-index: 4;
 }
@@ -212,20 +200,7 @@
 .profiletext {
     text-align: left;
     font-size: 1.1rem;
-  
-
-}
-
-.player-card-detail {
-    height: 90%;
-    z-index: 2;
-    right: 800px;
-    transition: all 0.4s border 0s;
-
-    line-height: 0.5;
-    padding: 0 !important;
-    text-align: left;
-
+    
 }
 
 .player-scores {
