@@ -170,7 +170,7 @@ p {
 /* part 15 */
 
 .sponsor {
-    height: 5vw;
+    height: calc(2vw + 22px);
 }
 
 .sponsorlist2 {
@@ -197,6 +197,11 @@ p {
 /* part17 */
 
 
+.social-link-parent {
+    background-color: #151e2d;
+}
+
+
 h6 {
     line-height: 30px;
 }
@@ -209,6 +214,8 @@ h6 {
     transition: all 300ms ease 0s;
 
 }
+
+
 
 .a17:hover {
     text-decoration: underline !important;
